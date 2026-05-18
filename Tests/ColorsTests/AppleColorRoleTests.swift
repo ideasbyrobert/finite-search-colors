@@ -29,5 +29,6 @@ struct AppleColorRoleTests
     {
         #expect(AppleColorRole.selectionEmphasizedBackground.source == .appKitDynamicSystemColor)
         #expect(AppleColorRole.selectionUnemphasizedBackground.source == .appKitDynamicSystemColor)
+        #expect(AppleColorRole.selectionSidebarRowBackground.source == .appKitDynamicSystemColor)
     }
 }

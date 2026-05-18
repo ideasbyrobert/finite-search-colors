@@ -14,6 +14,7 @@ public enum AppleColorRole: CaseIterable, Equatable, Hashable, Sendable
     case selectionAutomatic
     case selectionEmphasizedBackground
     case selectionUnemphasizedBackground
+    case selectionSidebarRowBackground
     case selectionBadgeBackground
     case feedbackError
     case feedbackWarning

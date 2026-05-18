@@ -36,7 +36,8 @@ enum AppleColorRoleFixture
     static let appKitDynamicRoles: Set<AppleColorRole> =
     [
         .selectionEmphasizedBackground,
-        .selectionUnemphasizedBackground
+        .selectionUnemphasizedBackground,
+        .selectionSidebarRowBackground
     ]
 
     static var allClassifiedRoles: Set<AppleColorRole>

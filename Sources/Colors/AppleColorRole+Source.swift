@@ -27,7 +27,8 @@ extension AppleColorRole
         case .surfaceElevated:
             return .swiftUIMaterial
         case .selectionEmphasizedBackground,
-             .selectionUnemphasizedBackground:
+             .selectionUnemphasizedBackground,
+             .selectionSidebarRowBackground:
             return .appKitDynamicSystemColor
         }
     }

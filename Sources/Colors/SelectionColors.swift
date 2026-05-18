@@ -18,6 +18,11 @@ public enum SelectionColors
         Color(nsColor: .unemphasizedSelectedContentBackgroundColor)
     }
 
+    public static var sidebarRowBackground: Color
+    {
+        Color(nsColor: .unemphasizedSelectedContentBackgroundColor)
+    }
+
     public static var badgeBackground: AnyShapeStyle
     {
         AnyShapeStyle(.tint.opacity(0.18))
