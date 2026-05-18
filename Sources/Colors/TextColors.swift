@@ -26,4 +26,9 @@ public enum TextColors
     {
         AnyShapeStyle(.link)
     }
+
+    public static var onAccent: AnyShapeStyle
+    {
+        AnyShapeStyle(.white)
+    }
 }

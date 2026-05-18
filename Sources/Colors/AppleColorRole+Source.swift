@@ -10,6 +10,7 @@ extension AppleColorRole
              .textQuaternary:
             return .swiftUIHierarchical
         case .textLink,
+             .textOnAccent,
              .surfaceWindow,
              .surfaceContent,
              .surfaceControl,

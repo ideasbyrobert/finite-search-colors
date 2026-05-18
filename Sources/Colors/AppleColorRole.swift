@@ -5,6 +5,7 @@ public enum AppleColorRole: CaseIterable, Equatable, Hashable, Sendable
     case textTertiary
     case textQuaternary
     case textLink
+    case textOnAccent
     case surfaceWindow
     case surfaceContent
     case surfaceElevated

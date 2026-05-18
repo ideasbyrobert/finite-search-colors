@@ -13,6 +13,7 @@ enum AppleColorRoleFixture
     static let semanticSwiftUIRoles: Set<AppleColorRole> =
     [
         .textLink,
+        .textOnAccent,
         .surfaceWindow,
         .surfaceContent,
         .surfaceControl,
